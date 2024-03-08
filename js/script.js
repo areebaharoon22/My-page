@@ -1,5 +1,5 @@
 // =========Background image changer===========
-const backgrounds = ["url('./images/bgimg.jpg')", "url('./images/img4.jpg')", "url('./images/img1.jpg')"]; 
+const backgrounds = ["url('./images/img_1.jpg')", "url('./images/img2.jpg')", "url('./images/img3.jpg')", "url('./images/img4.jpg')"];  
 let currentIndex = 0;
 function changeBackground() {
     document.body.style.backgroundImage = backgrounds[currentIndex];
