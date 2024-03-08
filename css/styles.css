@@ -1,0 +1,77 @@
+body {
+    
+    font-family: "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+
+    color:#ca7f68;
+}
+
+#showcase {
+    background-image: url('../images/bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#time-container{
+    font-size: 6rem;
+    text-shadow: 2px 2px 4px black;
+    align-items: center;
+    text-align: center;
+    color: #faebd7;
+}
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px black;
+    color: #f5ac96;
+}
+h3 {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px black;
+    color: #faebd7;
+}
+#quote-container {
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    background-color: #faebd7;
+    border-radius: 10px;
+}
+.button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #ca7f68;
+    border: black solid 2px;
+    color: #faebd7;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1rem;
+}
+.button:hover {
+    background-color: #faebd7;
+    color: #ca7f68;
+}
+#list-container{
+    margin: 1rem; 
+    padding: 0.3rem; 
+    background-color: #faebd7;
+    border-radius: 10px;
+}
+
+.col-sm-6{
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+
+/* Color theme
+#faebd7 ~cream
+da969b ~ asthetic pink
+ca7f68 ~ light brown
+
+*/
