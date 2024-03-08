@@ -6,7 +6,7 @@ function changeBackground() {
     currentIndex = (currentIndex + 1) % backgrounds.length;
 }
 setInterval(changeBackground, 3000); // Change background every 5 seconds
-
+changeBackground();
 //==============Time =====================
 function updateTime() {
     const now = new Date();
